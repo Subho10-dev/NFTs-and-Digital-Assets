@@ -66,3 +66,7 @@ The NFT Marketplace has significant potential for expansion and improvement in t
 - **Metadata Storage**: Secure and persistent storage of NFT metadata
 - **Auction Mechanisms**: Time-based and reserve price auction systems
 - **Direct Offers**: Ability to make direct offers on NFTs not listed for sale
+
+- ##CONTRACT ADDRESS:
+- 0x2AF4D2CE67b3f1de65A5D4cec941186dcEd9b75F
+##
