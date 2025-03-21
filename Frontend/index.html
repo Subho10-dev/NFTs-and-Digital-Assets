@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFT Marketplace</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">NFT Marketplace</div>
+        <div class="account" id="account"></div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="mint-section">
+                <h2>Mint NFT</h2>
+                <input type="text" id="metadata" placeholder="Enter NFT Metadata URL">
+                <button id="mintBtn">Mint NFT</button>
+            </div>
+
+            <div class="list-section">
+                <h2>List NFT for Sale</h2>
+                <input type="number" id="nftIdForSale" placeholder="Enter NFT ID">
+                <input type="number" id="price" placeholder="Price in ETH">
+                <button id="listForSaleBtn">List for Sale</button>
+            </div>
+
+            <div class="buy-section">
+                <h2>Buy NFT</h2>
+                <input type="number" id="nftIdToBuy" placeholder="Enter NFT ID">
+                <button id="buyNFTBtn">Buy NFT</button>
+            </div>
+
+            <div class="auction-section">
+                <h2>Start Auction</h2>
+                <input type="number" id="nftIdForAuction" placeholder="Enter NFT ID">
+                <input type="number" id="auctionDuration" placeholder="Auction Duration (seconds)">
+                <button id="startAuctionBtn">Start Auction</button>
+            </div>
+
+            <div class="bid-section">
+                <h2>Place Bid</h2>
+                <input type="number" id="auctionIdToBid" placeholder="Enter Auction ID">
+                <input type="number" id="bidAmount" placeholder="Bid Amount in ETH">
+                <button id="placeBidBtn">Place Bid</button>
+            </div>
+
+            <div class="end-auction-section">
+                <h2>End Auction</h2>
+                <input type="number" id="auctionIdToEnd" placeholder="Enter Auction ID">
+                <button id="endAuctionBtn">End Auction</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 NFT Marketplace. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.6.1/dist/web3.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
