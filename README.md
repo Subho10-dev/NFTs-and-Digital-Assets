@@ -71,3 +71,9 @@ The NFT Marketplace has significant potential for expansion and improvement in t
 - 0x2AF4D2CE67b3f1de65A5D4cec941186dcEd9b75F
 ##
 SCREENSHOT-![Screenshot 2025-03-20 155149](https://github.com/user-attachments/assets/9b981acb-3c10-4226-9fa6-957657a13454)
+
+
+
+
+## FRONTEND Screenshot-![image](https://github.com/user-attachments/assets/65a58410-d03c-4066-8650-4d4174ceb9ee)
+
